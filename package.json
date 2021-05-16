@@ -1,6 +1,6 @@
 {
   "name": "@xhmm/link-preview-js",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "Javascript module to extract and fetch HTTP link information from blocks of text. ",
   "main": "build/index.js",
   "types": "build/index.d.ts",
