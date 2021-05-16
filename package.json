@@ -29,6 +29,13 @@
   "files": [
     "build"
   ],
+  "exports": {
+    ".": {
+      "require": "./build/index.js",
+      "import": "./build/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "devDependencies": {
     "@skypack/package-check": "^0.2.2",
     "@types/cheerio": "0.22.24",
